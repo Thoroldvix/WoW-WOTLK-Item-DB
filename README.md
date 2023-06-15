@@ -4,7 +4,7 @@ When searching for the list or datasets of items that are tradeable I found out 
 
 So i decided to clean up dataset which is provided by https://github.com/cmangos/wotlk-db, so you don't have to.
 
-I managed to shorten it from 44k rows to 18k. There are still some non-tradeable items in this dataset, but it's good enough for me. You can narrow it further if you want. 
+I managed to shorten it from 44k rows to 18k. There are still some non-tradeable items in this dataset, but it's good enough for me. You can narrow down it further if you want. 
 
 I also changed original table structure and naming.
 
