@@ -6,4 +6,6 @@ So i decided to clean up dataset which is provided by https://github.com/cmangos
 
 I managed to shorten it from 48k rows to 18k. There are still some non-tradeable items in this dataset, but it's good enough for me. You can narrow it further if you want. 
 
-Dialect that is used in script is Postgresql
+I also changed original table structure and naming and also changed SQL dialect to Postgresql.
+
+Dialect that is used in original script is MySQL.
