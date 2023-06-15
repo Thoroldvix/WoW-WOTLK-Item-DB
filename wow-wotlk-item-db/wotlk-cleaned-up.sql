@@ -8,7 +8,7 @@ CREATE TABLE item
     sell_price  BIGINT,
     unique_name VARCHAR(64)  NOT NULL
 );
-INSERT INTO wotlk.item (id, type, name, quality, sell_price, slot)
+INSERT INTO item (id, type, name, quality, sell_price, slot)
 VALUES  (25, 2, 'Worn Shortsword', 1, 7, 21),
         (35, 2, 'Bent Staff', 1, 9, 17),
         (36, 2, 'Worn Mace', 1, 7, 21),
