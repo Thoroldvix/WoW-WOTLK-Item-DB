@@ -12,6 +12,7 @@ ALTER TABLE item
 #drop columns unused by me or future filtering, you can select which columns you want to keep by removing drop statements
 ALTER TABLE item
     DROP COLUMN displayid,
+    DROP COLUMN unk0,
     DROP COLUMN Flags,
     DROP COLUMN Flags2,
     DROP COLUMN BuyCount,
@@ -202,8 +203,8 @@ SET type = CASE
                WHEN type = 9 THEN type - 1
                WHEN type IN (11, 12, 13) THEN type - 2
                WHEN type IN (15, 16) THEN type - 3
-               ELSE type
-    END;
+    ELSE type
+END;
 
 #squash down ids of quality since there are no more Poor and Artifact quality
 UPDATE item
