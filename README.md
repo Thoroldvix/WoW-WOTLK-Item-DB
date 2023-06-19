@@ -73,6 +73,25 @@ The price that the vendor will pay you for the item when you sell it and if it i
 
 In what slot the item can be equipped.
 
+|ID|Slot Name|ID|Slot Name|
+|----|------|---|---------|
+|0|Non equipable|15|Ranged|
+|1|Head|16|Back|
+|2|Neck|17|Two-Hand|
+|3|Shoulder|18|Bag|
+|4|Shirt|19|Tabard|
+|5|Chest|20|Robe|
+|6|Waist|21|Main hand|
+|7|Legs|22|Off hand|
+|8|Feet|23|Holdable (Tome)|
+|9|Wrists|24|Ammo|
+|10|Hands|25|Thrown|
+|11|Finger|26|Ranged right|
+|12|Trinket|27|Quiver|
+|13|Weapon|28|Relic|
+|14|Shield|
+
+
 ### slug
 
 URL friendly name of the item
