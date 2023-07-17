@@ -210,7 +210,7 @@ END;
 UPDATE item
 SET quality = quality - 1;
 
-#drop columns that are no longer used by me or further filtering
+#drop columns that are no longer used by me or future filtering
 ALTER TABLE item
     DROP COLUMN subclass,
     DROP COLUMN bonding,
