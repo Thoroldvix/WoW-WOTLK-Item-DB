@@ -1,6 +1,6 @@
 # WoW-WOTLK-Item-DB
 
-When searching for the list or datasets of items that are tradeable I found out that it doesn't exists, all datasets that are out there contain all item info.
+When searching for the datasets of items that are tradeable I found out that it doesn't exists, all datasets that are out there contain all item info.
 
 So i decided to clean up dataset which is provided by https://github.com/cmangos/wotlk-db, so you don't have to.
 
